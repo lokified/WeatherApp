@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
+
     <ProgressBar
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -193,6 +195,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/humidity"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -233,6 +236,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/pressure"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -273,6 +277,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/windspeed"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -324,6 +329,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/sunrise"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -364,6 +370,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/sunset"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -404,6 +411,7 @@
                                 <ImageView
                                     android:layout_width="25dp"
                                     android:layout_height="25dp"
+                                    android:src="@drawable/temp"
                                     android:layout_gravity="center_horizontal"/>
 
                                 <TextView
@@ -437,5 +445,10 @@
         </RelativeLayout>
     </RelativeLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
 
 </RelativeLayout>
